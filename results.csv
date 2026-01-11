@@ -1,0 +1,31 @@
+painting_id,image_file,title,artist,year_made,price_usd,evaluator,overall_appeal,aesthetic_quality,emotional_impact
+Fillette,66_7_0_1.jpg,Fillette,Paul Cezanne,1872,240000.0,gpt-4o-mini,6,7,5
+Fillette,66_7_0_1.jpg,Fillette,Paul Cezanne,1872,240000.0,claude-3-haiku,8,9,7
+Fillette,66_7_0_1.jpg,Fillette,Paul Cezanne,1872,240000.0,gemini-2.0-flash,7,8,6
+Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,12_6_0_1.jpg,Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,Otto Dix,1912,88419.0,gpt-4o-mini,7,6,5
+Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,12_6_0_1.jpg,Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,Otto Dix,1912,88419.0,claude-3-haiku,8,9,7
+Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,12_6_0_1.jpg,Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,Otto Dix,1912,88419.0,gemini-2.0-flash,7,7,6
+Composition of forms on table,3_6_0_0.jpg,Composition of forms on table,Archil Gorky,1928 - 1929,993000.0,gpt-4o-mini,6,7,5
+Composition of forms on table,3_6_0_0.jpg,Composition of forms on table,Archil Gorky,1928 - 1929,993000.0,claude-3-haiku,7,8,7
+Composition of forms on table,3_6_0_0.jpg,Composition of forms on table,Archil Gorky,1928 - 1929,993000.0,gemini-2.0-flash,6,7,5
+Prometheus,77_2_1_1.jpg,Prometheus,Arnold Bocklin,1857,752500.0,gpt-4o-mini,8,9,7
+Prometheus,77_2_1_1.jpg,Prometheus,Arnold Bocklin,1857,752500.0,claude-3-haiku,8,9,8
+Prometheus,77_2_1_1.jpg,Prometheus,Arnold Bocklin,1857,752500.0,gemini-2.0-flash,7,8,8
+Tennis At Newport,29_3_1_1.jpg,Tennis At Newport,George Bellows,1920,7026500.0,gpt-4o-mini,8,7,6
+Tennis At Newport,29_3_1_1.jpg,Tennis At Newport,George Bellows,1920,7026500.0,claude-3-haiku,8,9,7
+Tennis At Newport,29_3_1_1.jpg,Tennis At Newport,George Bellows,1920,7026500.0,gemini-2.0-flash,7,8,7
+In der dammerung,26_2_1_1.jpg,In der dammerung,Karl Schmidt-Rottluff,1912,4013240.0,gpt-4o-mini,7,8,7
+In der dammerung,26_2_1_1.jpg,In der dammerung,Karl Schmidt-Rottluff,1912,4013240.0,claude-3-haiku,7,8,7
+In der dammerung,26_2_1_1.jpg,In der dammerung,Karl Schmidt-Rottluff,1912,4013240.0,gemini-2.0-flash,6,7,5
+View of Lankwitz and Marienfelde,23_10_0_1.jpg,View of Lankwitz and Marienfelde,Max Beckmann,1907,60000.0,gpt-4o-mini,6,7,5
+View of Lankwitz and Marienfelde,23_10_0_1.jpg,View of Lankwitz and Marienfelde,Max Beckmann,1907,60000.0,claude-3-haiku,8,9,7
+View of Lankwitz and Marienfelde,23_10_0_1.jpg,View of Lankwitz and Marienfelde,Max Beckmann,1907,60000.0,gemini-2.0-flash,7,8,7
+Ettore e Andromaca,15_4_1_1.jpg,Ettore e Andromaca,Giorgio de Chirico,1923,4786500.0,gpt-4o-mini,7,8,6
+Ettore e Andromaca,15_4_1_1.jpg,Ettore e Andromaca,Giorgio de Chirico,1923,4786500.0,claude-3-haiku,5,5,5
+Ettore e Andromaca,15_4_1_1.jpg,Ettore e Andromaca,Giorgio de Chirico,1923,4786500.0,gemini-2.0-flash,7,7,8
+Little Miss Muffet,76_7_0_1.jpg,Little Miss Muffet,Sir John Everett Millais,1884,688560.0,gpt-4o-mini,8,9,7
+Little Miss Muffet,76_7_0_1.jpg,Little Miss Muffet,Sir John Everett Millais,1884,688560.0,claude-3-haiku,8,9,8
+Little Miss Muffet,76_7_0_1.jpg,Little Miss Muffet,Sir John Everett Millais,1884,688560.0,gemini-2.0-flash,7,8,7
+Arizona,11_6_0_1.jpg,Arizona,Max Ernst,1946,29255.0,gpt-4o-mini,6,5,4
+Arizona,11_6_0_1.jpg,Arizona,Max Ernst,1946,29255.0,claude-3-haiku,7,8,7
+Arizona,11_6_0_1.jpg,Arizona,Max Ernst,1946,29255.0,gemini-2.0-flash,6,5,5
