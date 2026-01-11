@@ -1,31 +1,31 @@
 painting_id,image_file,title,artist,year_made,price_usd,evaluator,aesthetic,harmony,relaxation,technique,hedonic,arousal
-Fillette,66_7_0_1.jpg,Fillette,Paul Cezanne,1872,240000.0,gpt-4o-mini,7,6,8,6,7,5
-Fillette,66_7_0_1.jpg,Fillette,Paul Cezanne,1872,240000.0,claude-3-haiku,7,8,7,8,7,6
-Fillette,66_7_0_1.jpg,Fillette,Paul Cezanne,1872,240000.0,gemini-2.0-flash,7,6,7,7,7,4
-Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,12_6_0_1.jpg,Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,Otto Dix,1912,88419.0,gpt-4o-mini,7,6,8,6,7,5
-Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,12_6_0_1.jpg,Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,Otto Dix,1912,88419.0,claude-3-haiku,7,7,7,8,7,6
-Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,12_6_0_1.jpg,Blick Auf Die Elbvillen Des Käthe-kollwitz-ufers In Dresden-blasewitz Mit Elbauen Und Kahn Im Vordergrund,Otto Dix,1912,88419.0,gemini-2.0-flash,7,6,7,6,6,4
-Composition of forms on table,3_6_0_0.jpg,Composition of forms on table,Archil Gorky,1928 - 1929,993000.0,gpt-4o-mini,6,5,4,7,5,6
-Composition of forms on table,3_6_0_0.jpg,Composition of forms on table,Archil Gorky,1928 - 1929,993000.0,claude-3-haiku,7,6,4,7,6,7
-Composition of forms on table,3_6_0_0.jpg,Composition of forms on table,Archil Gorky,1928 - 1929,993000.0,gemini-2.0-flash,6,5,3,7,5,6
-Prometheus,77_2_1_1.jpg,Prometheus,Arnold Bocklin,1857,752500.0,gpt-4o-mini,8,7,5,9,7,6
-Prometheus,77_2_1_1.jpg,Prometheus,Arnold Bocklin,1857,752500.0,claude-3-haiku,8,8,8,9,8,7
-Prometheus,77_2_1_1.jpg,Prometheus,Arnold Bocklin,1857,752500.0,gemini-2.0-flash,8,7,5,9,7,6
-Tennis At Newport,29_3_1_1.jpg,Tennis At Newport,George Bellows,1920,7026500.0,gpt-4o-mini,7,6,8,7,7,5
-Tennis At Newport,29_3_1_1.jpg,Tennis At Newport,George Bellows,1920,7026500.0,claude-3-haiku,8,7,9,8,8,6
-Tennis At Newport,29_3_1_1.jpg,Tennis At Newport,George Bellows,1920,7026500.0,gemini-2.0-flash,7,6,7,6,7,5
-In der dammerung,26_2_1_1.jpg,In der dammerung,Karl Schmidt-Rottluff,1912,4013240.0,gpt-4o-mini,6,5,4,7,5,8
-In der dammerung,26_2_1_1.jpg,In der dammerung,Karl Schmidt-Rottluff,1912,4013240.0,claude-3-haiku,7,6,3,8,6,7
-In der dammerung,26_2_1_1.jpg,In der dammerung,Karl Schmidt-Rottluff,1912,4013240.0,gemini-2.0-flash,6,5,3,6,5,6
-View of Lankwitz and Marienfelde,23_10_0_1.jpg,View of Lankwitz and Marienfelde,Max Beckmann,1907,60000.0,gpt-4o-mini,6,5,4,7,5,6
-View of Lankwitz and Marienfelde,23_10_0_1.jpg,View of Lankwitz and Marienfelde,Max Beckmann,1907,60000.0,claude-3-haiku,8,7,8,7,7,6
-View of Lankwitz and Marienfelde,23_10_0_1.jpg,View of Lankwitz and Marienfelde,Max Beckmann,1907,60000.0,gemini-2.0-flash,7,7,6,8,7,5
-Ettore e Andromaca,15_4_1_1.jpg,Ettore e Andromaca,Giorgio de Chirico,1923,4786500.0,gpt-4o-mini,7,6,5,8,7,6
-Ettore e Andromaca,15_4_1_1.jpg,Ettore e Andromaca,Giorgio de Chirico,1923,4786500.0,claude-3-haiku,5,5,5,5,5,5
-Ettore e Andromaca,15_4_1_1.jpg,Ettore e Andromaca,Giorgio de Chirico,1923,4786500.0,gemini-2.0-flash,7,6,4,7,6,5
-Little Miss Muffet,76_7_0_1.jpg,Little Miss Muffet,Sir John Everett Millais,1884,688560.0,gpt-4o-mini,8,7,6,9,7,5
-Little Miss Muffet,76_7_0_1.jpg,Little Miss Muffet,Sir John Everett Millais,1884,688560.0,claude-3-haiku,8,9,8,9,8,6
-Little Miss Muffet,76_7_0_1.jpg,Little Miss Muffet,Sir John Everett Millais,1884,688560.0,gemini-2.0-flash,8,7,7,8,7,4
-Arizona,11_6_0_1.jpg,Arizona,Max Ernst,1946,29255.0,gpt-4o-mini,6,5,7,4,6,5
-Arizona,11_6_0_1.jpg,Arizona,Max Ernst,1946,29255.0,claude-3-haiku,6,5,6,6,5,4
-Arizona,11_6_0_1.jpg,Arizona,Max Ernst,1946,29255.0,gemini-2.0-flash,5,4,6,4,5,3
+Printemps Nécrophilique,2_2_1_1.jpg,Printemps Nécrophilique,Salvador Dali,1936,16322500.0,gpt-4o-mini,8,7,6,9,7,5
+Printemps Nécrophilique,2_2_1_1.jpg,Printemps Nécrophilique,Salvador Dali,1936,16322500.0,claude-3-haiku,7,8,9,8,8,6
+Printemps Nécrophilique,2_2_1_1.jpg,Printemps Nécrophilique,Salvador Dali,1936,16322500.0,gemini-2.0-flash,8,7,6,8,7,5
+Portrait De Paul Éluard,2_1_1_1.jpg,Portrait De Paul Éluard,Salvador Dali,1929,21714249.0,gpt-4o-mini,8,7,4,9,7,8
+Portrait De Paul Éluard,2_1_1_1.jpg,Portrait De Paul Éluard,Salvador Dali,1929,21714249.0,claude-3-haiku,5,5,5,5,5,5
+Portrait De Paul Éluard,2_1_1_1.jpg,Portrait De Paul Éluard,Salvador Dali,1929,21714249.0,gemini-2.0-flash,7,5,3,9,7,8
+Etude pour 'Le miel est plus doux que le sang',2_5_1_1.jpg,Etude pour 'Le miel est plus doux que le sang',Salvador Dali,1926 - 1927,6552229.0,gpt-4o-mini,6,5,4,7,5,6
+Etude pour 'Le miel est plus doux que le sang',2_5_1_1.jpg,Etude pour 'Le miel est plus doux que le sang',Salvador Dali,1926 - 1927,6552229.0,claude-3-haiku,6,5,3,7,4,6
+Etude pour 'Le miel est plus doux que le sang',2_5_1_1.jpg,Etude pour 'Le miel est plus doux que le sang',Salvador Dali,1926 - 1927,6552229.0,gemini-2.0-flash,7,6,3,7,6,6
+Biblia sacra,2_10_0_1.jpg,Biblia sacra,Salvador Dali,1964,52000.0,gpt-4o-mini,6,5,4,7,5,6
+Biblia sacra,2_10_0_1.jpg,Biblia sacra,Salvador Dali,1964,52000.0,claude-3-haiku,8,7,3,9,7,8
+Biblia sacra,2_10_0_1.jpg,Biblia sacra,Salvador Dali,1964,52000.0,gemini-2.0-flash,7,6,3,8,6,7
+Chevauchée céleste,2_7_0_1.jpg,Chevauchée céleste,Salvador Dali,1957,4534749.0,gpt-4o-mini,8,7,5,9,7,6
+Chevauchée céleste,2_7_0_1.jpg,Chevauchée céleste,Salvador Dali,1957,4534749.0,claude-3-haiku,8,7,5,9,6,7
+Chevauchée céleste,2_7_0_1.jpg,Chevauchée céleste,Salvador Dali,1957,4534749.0,gemini-2.0-flash,8,6,4,9,7,7
+Composition numerique,2_6_0_1.jpg,Composition numerique,Salvador Dali,1960,5751.0,gpt-4o-mini,6,7,5,8,6,5
+Composition numerique,2_6_0_1.jpg,Composition numerique,Salvador Dali,1960,5751.0,claude-3-haiku,5,5,5,5,5,5
+Composition numerique,2_6_0_1.jpg,Composition numerique,Salvador Dali,1960,5751.0,gemini-2.0-flash,7,7,4,8,6,5
+Étude Pour Une Toile De Fond Pour Tristan Fou,2_9_0_1.jpg,Étude Pour Une Toile De Fond Pour Tristan Fou,Salvador Dali,1944,610000.0,gpt-4o-mini,8,7,6,9,7,8
+Étude Pour Une Toile De Fond Pour Tristan Fou,2_9_0_1.jpg,Étude Pour Une Toile De Fond Pour Tristan Fou,Salvador Dali,1944,610000.0,claude-3-haiku,5,5,5,5,5,5
+Étude Pour Une Toile De Fond Pour Tristan Fou,2_9_0_1.jpg,Étude Pour Une Toile De Fond Pour Tristan Fou,Salvador Dali,1944,610000.0,gemini-2.0-flash,7,6,4,7,6,7
+Moment de transition,2_3_1_1.jpg,Moment de transition,Salvador Dali,1934,9125000.0,gpt-4o-mini,7,6,5,8,6,4
+Moment de transition,2_3_1_1.jpg,Moment de transition,Salvador Dali,1934,9125000.0,claude-3-haiku,7,7,8,8,7,5
+Moment de transition,2_3_1_1.jpg,Moment de transition,Salvador Dali,1934,9125000.0,gemini-2.0-flash,7,6,7,8,7,5
+La Musique Or L'orchestre Rouge Or Les Sept Arts,2_4_1_1.jpg,La Musique Or L'orchestre Rouge Or Les Sept Arts,Salvador Dali,1957,7741222.0,gpt-4o-mini,8,7,4,9,7,8
+La Musique Or L'orchestre Rouge Or Les Sept Arts,2_4_1_1.jpg,La Musique Or L'orchestre Rouge Or Les Sept Arts,Salvador Dali,1957,7741222.0,claude-3-haiku,7,6,3,7,5,7
+La Musique Or L'orchestre Rouge Or Les Sept Arts,2_4_1_1.jpg,La Musique Or L'orchestre Rouge Or Les Sept Arts,Salvador Dali,1957,7741222.0,gemini-2.0-flash,6,5,3,7,5,6
+Composition surrealiste - Surrealist composition,2_8_0_1.jpg,Composition surrealiste - Surrealist composition,Salvador Dali,1935,1000000.0,gpt-4o-mini,7,6,5,8,7,6
+Composition surrealiste - Surrealist composition,2_8_0_1.jpg,Composition surrealiste - Surrealist composition,Salvador Dali,1935,1000000.0,claude-3-haiku,7,6,6,8,7,5
+Composition surrealiste - Surrealist composition,2_8_0_1.jpg,Composition surrealiste - Surrealist composition,Salvador Dali,1935,1000000.0,gemini-2.0-flash,7,6,5,8,6,6

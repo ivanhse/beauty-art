@@ -50,7 +50,7 @@ except ImportError:
 
 # Configuration
 SCRIPT_DIR = Path(__file__).parent
-PAINTINGS_DIR = SCRIPT_DIR / "paintings"
+PAINTINGS_DIR = SCRIPT_DIR / "paintings-10"
 METADATA_FILE = SCRIPT_DIR / "1000_paintings features.xlsx"
 NUM_PAINTINGS = 10
 RANDOM_SEED = 42
