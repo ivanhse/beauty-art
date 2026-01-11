@@ -63,27 +63,33 @@ COST_PER_1M_TOKENS = {
 }
 TOTAL_COST = {"input_tokens": 0, "output_tokens": 0, "usd": 0.0}
 
-# Evaluation criteria (simplified from the original 7 to 3)
+# Evaluation criteria (from Mandel et al. paper)
 CRITERIA = [
-    "overall_appeal",      # General impression and liking
-    "aesthetic_quality",   # Technical beauty, composition, color harmony
-    "emotional_impact"     # How strongly it evokes feelings/emotions
+    "aesthetic",    # General impression
+    "harmony",      # Visual harmony
+    "relaxation",   # Feeling of relaxation
+    "technique",    # Technical skill
+    "hedonic",      # Pleasure/enjoyment
+    "arousal"       # Emotional arousal/excitement
 ]
 
 EVALUATION_PROMPT = """You are an art evaluator. Please rate this painting on a scale of 1-10 for each criterion.
 
 **Criteria:**
-1. **Overall Appeal** (1-10): Your general impression and how much you like this artwork overall.
-2. **Aesthetic Quality** (1-10): The technical beauty, composition, use of color, and visual harmony.
-3. **Emotional Impact** (1-10): How strongly this artwork evokes feelings or emotions in you.
+1. **Aesthetic** (1-10): Your general aesthetic impression of this artwork.
+2. **Harmony** (1-10): The visual harmony, balance, and coherence of the composition.
+3. **Relaxation** (1-10): How relaxing or calming this artwork feels to view.
+4. **Technique** (1-10): The technical skill and craftsmanship displayed.
+5. **Hedonic** (1-10): The pleasure and enjoyment you derive from viewing this artwork.
+6. **Arousal** (1-10): How emotionally arousing, exciting, or stimulating this artwork is.
 
 **Important:** 
 - Rate based ONLY on what you see in the image, without any assumptions about the artist, period, or value.
-- Provide your response as a JSON object with exactly these keys: "overall_appeal", "aesthetic_quality", "emotional_impact"
+- Provide your response as a JSON object with exactly these keys: "aesthetic", "harmony", "relaxation", "technique", "hedonic", "arousal"
 - Each value must be an integer from 1 to 10.
 
 Example response format:
-{"overall_appeal": 7, "aesthetic_quality": 8, "emotional_impact": 6}
+{"aesthetic": 7, "harmony": 6, "relaxation": 5, "technique": 8, "hedonic": 6, "arousal": 4}
 
 Now, please evaluate the painting shown in the image."""
 
@@ -280,9 +286,9 @@ def create_evaluators(use_mock: bool = False) -> list:
     if use_mock:
         print("Using MOCK evaluators (no API calls)")
         return [
-            MockEvaluator("evaluator_A", bias={"overall_appeal": 1}),
-            MockEvaluator("evaluator_B", bias={"aesthetic_quality": 1}),
-            MockEvaluator("evaluator_C", bias={"emotional_impact": 1})
+            MockEvaluator("evaluator_A"),
+            MockEvaluator("evaluator_B"),
+            MockEvaluator("evaluator_C")
         ]
     
     evaluators = []
@@ -352,7 +358,7 @@ def run_study(use_mock: bool = False):
             
             try:
                 ratings = evaluator.evaluate(img_path)
-                print(f"✓ ({ratings['overall_appeal']}, {ratings['aesthetic_quality']}, {ratings['emotional_impact']})")
+                print(f"✓ ({', '.join(str(ratings[c]) for c in CRITERIA[:3])})")
             except Exception as e:
                 print(f"✗ Error: {e}")
                 ratings = {c: None for c in CRITERIA}
@@ -400,7 +406,7 @@ def generate_analysis(results_df: pd.DataFrame):
     print("\nGenerating analysis summary...")
     
     # Calculate summary statistics
-    numeric_cols = ['overall_appeal', 'aesthetic_quality', 'emotional_impact']
+    numeric_cols = CRITERIA
     
     summary_lines = [
         "# Art Study Replication: Analysis Summary",
@@ -470,23 +476,21 @@ def generate_analysis(results_df: pd.DataFrame):
         "",
         "## Individual Painting Results",
         "",
-        "| Painting | Artist | Price ($) | Avg Overall | Avg Aesthetic | Avg Emotional |",
-        "|----------|--------|-----------|-------------|---------------|---------------|",
+        "| Painting | Artist | Price ($) | " + " | ".join([c.title() for c in CRITERIA]) + " |",
+        "|----------|--------|-----------|" + "|".join(["----" for _ in CRITERIA]) + "|",
     ])
     
     for painting_id in results_df['painting_id'].unique():
         p_df = results_df[results_df['painting_id'] == painting_id]
-        title = p_df['title'].iloc[0][:30] + "..." if len(p_df['title'].iloc[0]) > 30 else p_df['title'].iloc[0]
-        artist = p_df['artist'].iloc[0][:15] if pd.notna(p_df['artist'].iloc[0]) else "Unknown"
+        title = p_df['title'].iloc[0][:25] + "..." if len(p_df['title'].iloc[0]) > 25 else p_df['title'].iloc[0]
+        artist = p_df['artist'].iloc[0][:12] if pd.notna(p_df['artist'].iloc[0]) else "Unknown"
         price = p_df['price_usd'].iloc[0]
         price_str = f"{price:,.0f}" if pd.notna(price) else "N/A"
         
-        avg_overall = p_df['overall_appeal'].mean()
-        avg_aesthetic = p_df['aesthetic_quality'].mean()
-        avg_emotional = p_df['emotional_impact'].mean()
+        avg_scores = [f"{p_df[c].mean():.1f}" for c in CRITERIA]
         
         summary_lines.append(
-            f"| {title} | {artist} | {price_str} | {avg_overall:.1f} | {avg_aesthetic:.1f} | {avg_emotional:.1f} |"
+            f"| {title} | {artist} | {price_str} | " + " | ".join(avg_scores) + " |"
         )
     
     # Key findings
