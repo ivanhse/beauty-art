@@ -1,31 +1,31 @@
 painting_id,image_file,title,artist,year_made,price_usd,evaluator,aesthetic,harmony,relaxation,technique,hedonic,arousal
-Printemps Nécrophilique,2_2_1_1.jpg,Printemps Nécrophilique,Salvador Dali,1936,16322500.0,gpt-4o-mini,8,7,6,9,7,5
-Printemps Nécrophilique,2_2_1_1.jpg,Printemps Nécrophilique,Salvador Dali,1936,16322500.0,claude-3-haiku,7,8,9,8,8,6
-Printemps Nécrophilique,2_2_1_1.jpg,Printemps Nécrophilique,Salvador Dali,1936,16322500.0,gemini-2.0-flash,8,7,6,8,7,5
+Printemps Nécrophilique,2_2_1_1.jpg,Printemps Nécrophilique,Salvador Dali,1936,16322500.0,gpt-4o-mini,8,7,6,8,7,5
+Printemps Nécrophilique,2_2_1_1.jpg,Printemps Nécrophilique,Salvador Dali,1936,16322500.0,claude-3-haiku,7,8,9,7,8,6
+Printemps Nécrophilique,2_2_1_1.jpg,Printemps Nécrophilique,Salvador Dali,1936,16322500.0,gemini-2.0-flash,8,7,5,8,7,6
 Portrait De Paul Éluard,2_1_1_1.jpg,Portrait De Paul Éluard,Salvador Dali,1929,21714249.0,gpt-4o-mini,8,7,4,9,7,8
-Portrait De Paul Éluard,2_1_1_1.jpg,Portrait De Paul Éluard,Salvador Dali,1929,21714249.0,claude-3-haiku,5,5,5,5,5,5
-Portrait De Paul Éluard,2_1_1_1.jpg,Portrait De Paul Éluard,Salvador Dali,1929,21714249.0,gemini-2.0-flash,7,5,3,9,7,8
-Etude pour 'Le miel est plus doux que le sang',2_5_1_1.jpg,Etude pour 'Le miel est plus doux que le sang',Salvador Dali,1926 - 1927,6552229.0,gpt-4o-mini,6,5,4,7,5,6
-Etude pour 'Le miel est plus doux que le sang',2_5_1_1.jpg,Etude pour 'Le miel est plus doux que le sang',Salvador Dali,1926 - 1927,6552229.0,claude-3-haiku,6,5,3,7,4,6
-Etude pour 'Le miel est plus doux que le sang',2_5_1_1.jpg,Etude pour 'Le miel est plus doux que le sang',Salvador Dali,1926 - 1927,6552229.0,gemini-2.0-flash,7,6,3,7,6,6
-Biblia sacra,2_10_0_1.jpg,Biblia sacra,Salvador Dali,1964,52000.0,gpt-4o-mini,6,5,4,7,5,6
-Biblia sacra,2_10_0_1.jpg,Biblia sacra,Salvador Dali,1964,52000.0,claude-3-haiku,8,7,3,9,7,8
-Biblia sacra,2_10_0_1.jpg,Biblia sacra,Salvador Dali,1964,52000.0,gemini-2.0-flash,7,6,3,8,6,7
-Chevauchée céleste,2_7_0_1.jpg,Chevauchée céleste,Salvador Dali,1957,4534749.0,gpt-4o-mini,8,7,5,9,7,6
-Chevauchée céleste,2_7_0_1.jpg,Chevauchée céleste,Salvador Dali,1957,4534749.0,claude-3-haiku,8,7,5,9,6,7
+Portrait De Paul Éluard,2_1_1_1.jpg,Portrait De Paul Éluard,Salvador Dali,1929,21714249.0,claude-3-haiku,8,7,3,9,7,7
+Portrait De Paul Éluard,2_1_1_1.jpg,Portrait De Paul Éluard,Salvador Dali,1929,21714249.0,gemini-2.0-flash,7,6,4,8,7,8
+Etude pour 'Le miel est plus doux que le sang',2_5_1_1.jpg,Etude pour 'Le miel est plus doux que le sang',Salvador Dali,1926 - 1927,6552229.0,gpt-4o-mini,6,5,3,7,4,6
+Etude pour 'Le miel est plus doux que le sang',2_5_1_1.jpg,Etude pour 'Le miel est plus doux que le sang',Salvador Dali,1926 - 1927,6552229.0,claude-3-haiku,7,6,6,7,6,5
+Etude pour 'Le miel est plus doux que le sang',2_5_1_1.jpg,Etude pour 'Le miel est plus doux que le sang',Salvador Dali,1926 - 1927,6552229.0,gemini-2.0-flash,7,6,4,8,6,7
+Biblia sacra,2_10_0_1.jpg,Biblia sacra,Salvador Dali,1964,52000.0,gpt-4o-mini,7,6,4,8,6,7
+Biblia sacra,2_10_0_1.jpg,Biblia sacra,Salvador Dali,1964,52000.0,claude-3-haiku,5,5,5,5,5,5
+Biblia sacra,2_10_0_1.jpg,Biblia sacra,Salvador Dali,1964,52000.0,gemini-2.0-flash,7,6,3,8,7,6
+Chevauchée céleste,2_7_0_1.jpg,Chevauchée céleste,Salvador Dali,1957,4534749.0,gpt-4o-mini,8,7,6,9,7,8
+Chevauchée céleste,2_7_0_1.jpg,Chevauchée céleste,Salvador Dali,1957,4534749.0,claude-3-haiku,8,8,4,9,7,7
 Chevauchée céleste,2_7_0_1.jpg,Chevauchée céleste,Salvador Dali,1957,4534749.0,gemini-2.0-flash,8,6,4,9,7,7
-Composition numerique,2_6_0_1.jpg,Composition numerique,Salvador Dali,1960,5751.0,gpt-4o-mini,6,7,5,8,6,5
-Composition numerique,2_6_0_1.jpg,Composition numerique,Salvador Dali,1960,5751.0,claude-3-haiku,5,5,5,5,5,5
-Composition numerique,2_6_0_1.jpg,Composition numerique,Salvador Dali,1960,5751.0,gemini-2.0-flash,7,7,4,8,6,5
+Composition numerique,2_6_0_1.jpg,Composition numerique,Salvador Dali,1960,5751.0,gpt-4o-mini,6,7,4,8,5,6
+Composition numerique,2_6_0_1.jpg,Composition numerique,Salvador Dali,1960,5751.0,claude-3-haiku,4,3,2,4,2,5
+Composition numerique,2_6_0_1.jpg,Composition numerique,Salvador Dali,1960,5751.0,gemini-2.0-flash,7,8,4,7,6,5
 Étude Pour Une Toile De Fond Pour Tristan Fou,2_9_0_1.jpg,Étude Pour Une Toile De Fond Pour Tristan Fou,Salvador Dali,1944,610000.0,gpt-4o-mini,8,7,6,9,7,8
 Étude Pour Une Toile De Fond Pour Tristan Fou,2_9_0_1.jpg,Étude Pour Une Toile De Fond Pour Tristan Fou,Salvador Dali,1944,610000.0,claude-3-haiku,5,5,5,5,5,5
-Étude Pour Une Toile De Fond Pour Tristan Fou,2_9_0_1.jpg,Étude Pour Une Toile De Fond Pour Tristan Fou,Salvador Dali,1944,610000.0,gemini-2.0-flash,7,6,4,7,6,7
+Étude Pour Une Toile De Fond Pour Tristan Fou,2_9_0_1.jpg,Étude Pour Une Toile De Fond Pour Tristan Fou,Salvador Dali,1944,610000.0,gemini-2.0-flash,6,5,3,7,5,6
 Moment de transition,2_3_1_1.jpg,Moment de transition,Salvador Dali,1934,9125000.0,gpt-4o-mini,7,6,5,8,6,4
-Moment de transition,2_3_1_1.jpg,Moment de transition,Salvador Dali,1934,9125000.0,claude-3-haiku,7,7,8,8,7,5
-Moment de transition,2_3_1_1.jpg,Moment de transition,Salvador Dali,1934,9125000.0,gemini-2.0-flash,7,6,7,8,7,5
-La Musique Or L'orchestre Rouge Or Les Sept Arts,2_4_1_1.jpg,La Musique Or L'orchestre Rouge Or Les Sept Arts,Salvador Dali,1957,7741222.0,gpt-4o-mini,8,7,4,9,7,8
-La Musique Or L'orchestre Rouge Or Les Sept Arts,2_4_1_1.jpg,La Musique Or L'orchestre Rouge Or Les Sept Arts,Salvador Dali,1957,7741222.0,claude-3-haiku,7,6,3,7,5,7
-La Musique Or L'orchestre Rouge Or Les Sept Arts,2_4_1_1.jpg,La Musique Or L'orchestre Rouge Or Les Sept Arts,Salvador Dali,1957,7741222.0,gemini-2.0-flash,6,5,3,7,5,6
+Moment de transition,2_3_1_1.jpg,Moment de transition,Salvador Dali,1934,9125000.0,claude-3-haiku,8,9,9,8,8,7
+Moment de transition,2_3_1_1.jpg,Moment de transition,Salvador Dali,1934,9125000.0,gemini-2.0-flash,7,6,6,8,7,5
+La Musique Or L'orchestre Rouge Or Les Sept Arts,2_4_1_1.jpg,La Musique Or L'orchestre Rouge Or Les Sept Arts,Salvador Dali,1957,7741222.0,gpt-4o-mini,8,7,4,9,6,8
+La Musique Or L'orchestre Rouge Or Les Sept Arts,2_4_1_1.jpg,La Musique Or L'orchestre Rouge Or Les Sept Arts,Salvador Dali,1957,7741222.0,claude-3-haiku,6,7,3,8,6,7
+La Musique Or L'orchestre Rouge Or Les Sept Arts,2_4_1_1.jpg,La Musique Or L'orchestre Rouge Or Les Sept Arts,Salvador Dali,1957,7741222.0,gemini-2.0-flash,7,6,3,8,6,7
 Composition surrealiste - Surrealist composition,2_8_0_1.jpg,Composition surrealiste - Surrealist composition,Salvador Dali,1935,1000000.0,gpt-4o-mini,7,6,5,8,7,6
-Composition surrealiste - Surrealist composition,2_8_0_1.jpg,Composition surrealiste - Surrealist composition,Salvador Dali,1935,1000000.0,claude-3-haiku,7,6,6,8,7,5
-Composition surrealiste - Surrealist composition,2_8_0_1.jpg,Composition surrealiste - Surrealist composition,Salvador Dali,1935,1000000.0,gemini-2.0-flash,7,6,5,8,6,6
+Composition surrealiste - Surrealist composition,2_8_0_1.jpg,Composition surrealiste - Surrealist composition,Salvador Dali,1935,1000000.0,claude-3-haiku,7,6,8,7,7,5
+Composition surrealiste - Surrealist composition,2_8_0_1.jpg,Composition surrealiste - Surrealist composition,Salvador Dali,1935,1000000.0,gemini-2.0-flash,7,7,6,8,7,5

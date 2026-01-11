@@ -421,17 +421,30 @@ def generate_analysis(results_df: pd.DataFrame):
         "",
         "## Criteria",
         "",
-        "1. **Overall Appeal** - General impression and liking",
-        "2. **Aesthetic Quality** - Technical beauty, composition, color harmony", 
-        "3. **Emotional Impact** - How strongly the artwork evokes emotions",
+    ]
+    
+    # Add criteria descriptions
+    criteria_desc = {
+        "aesthetic": "General aesthetic impression",
+        "harmony": "Visual harmony and balance",
+        "relaxation": "Feeling of relaxation",
+        "technique": "Technical skill displayed",
+        "hedonic": "Pleasure and enjoyment",
+        "arousal": "Emotional arousal/excitement"
+    }
+    for i, c in enumerate(CRITERIA, 1):
+        desc = criteria_desc.get(c, c.title())
+        summary_lines.append(f"{i}. **{c.title()}** - {desc}")
+    
+    summary_lines.extend([
         "",
         "## Summary Statistics",
         "",
         "### By Evaluator",
         "",
-        "| Evaluator | Overall Appeal | Aesthetic Quality | Emotional Impact |",
-        "|-----------|----------------|-------------------|------------------|",
-    ]
+        "| Evaluator | " + " | ".join([c.title() for c in CRITERIA]) + " |",
+        "|-----------|" + "|".join(["----" for _ in CRITERIA]) + "|",
+    ])
     
     for evaluator in results_df['evaluator'].unique():
         eval_df = results_df[results_df['evaluator'] == evaluator]
